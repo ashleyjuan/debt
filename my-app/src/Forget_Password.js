@@ -180,7 +180,7 @@ const ForgetPassword = () => {
                                 </Row>
                             </Col>
                             <Col md={{ span: 10 }} sm={{ span: 24 }}>
-                                <img src="./forget.png" width="100%" height="auto"></img>
+                                <img src="../pic/forget.png" width="100%" height="auto"></img>
                             </Col>
                         </Row>
                     </Col>

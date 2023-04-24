@@ -485,7 +485,7 @@ const DebtInformation = () => {
                             />
                         </Col>
                         <Col style={{ paddingTop: '20px' }}>
-                            <img src='./nomoney.png'></img>
+                            <img src='../pic/nomoney.png'></img>
                         </Col>
                     </Row>
                 </Col>

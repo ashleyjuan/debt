@@ -136,7 +136,7 @@ const Register = () => {
                                 </Form>
                             </Col>
                             <Col md={{ span: 10 }} sm={{ span: 24 }}>
-                                <img src="./register.png" width="100%" height="auto"></img>
+                                <img src="../pic/register.png" width="100%" height="auto"></img>
                             </Col>
                         </Row>
                     </Col>

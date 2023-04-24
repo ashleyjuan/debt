@@ -14,16 +14,16 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path={'/www'}>
-          <Route index element={<Login />} />
-          <Route path={'/Login'} element={<Login />} />
-          <Route path={'/Register'} element={<Register />} />
-          <Route path={'/Forget_Password'} element={<ForgetPassword />} />
-          <Route path={''} element={<MainOutlet />}>
-            <Route path={'Debt_Information'} element={<DebtInformation />} />
-            <Route path={'Charts'} element={<Charts />} />
-            <Route path={'Friends'} element={<Friends />} />
-          </Route>
+        {/* <Route path={'www'}> */}
+        <Route path={'debt'} element={<Login />} />
+        <Route path={'debt/Login'} element={<Login />} />
+        <Route path={'debt/Register'} element={<Register />} />
+        <Route path={'debt/Forget_Password'} element={<ForgetPassword />} />
+        <Route path={'debt'} element={<MainOutlet />}>
+          <Route path={'Debt_Information'} element={<DebtInformation />} />
+          <Route path={'Charts'} element={<Charts />} />
+          <Route path={'Friends'} element={<Friends />} />
+          {/* </Route> */}
         </Route>
       </Routes>
     </BrowserRouter>

@@ -23,19 +23,19 @@ const MainOutlet = () => {
         width: window.innerWidth
     });
     const titles = {
-        "/Debt_Information": '債務資訊',
-        '/Charts': '數據化圖表',
-        '/Friends': '查看好友',
+        "/debt/Debt_Information": '債務資訊',
+        '/debt/Charts': '數據化圖表',
+        '/debt/Friends': '查看好友',
     }
     const item = [
         {
-            key: '/Debt_Information',
+            key: '/debt/Debt_Information',
             label: '債務資訊',
         }, {
-            key: '/Charts',
+            key: '/debt/Charts',
             label: '數據化圖表',
         }, {
-            key: '/Friends',
+            key: '/debt/Friends',
             label: '查看好友',
         }]
     useEffect(() => {
@@ -106,7 +106,7 @@ const MainOutlet = () => {
                                 <Col style={{ position: 'absolute', right: '20px', top: '5px' }}>
                                     <Row gutter={[8, 8]} align={'top'}>
                                         <Col>
-                                            <Button className='btn' onClick={e => navigate('/')}
+                                            <Button className='btn' onClick={e => navigate('/debt')}
                                                 style={{ backgroundColor: '#F0E2FF' }}>登出</Button>
                                         </Col>
                                         <Col>
@@ -173,7 +173,7 @@ const MainOutlet = () => {
                                     }}
                                 />
                                 <Col span={24}>
-                                    <Button block className='btn' onClick={e => navigate('/')}
+                                    <Button block className='btn' onClick={e => navigate('/debt')}
                                         style={{ backgroundColor: '#F0E2FF' }}>登出</Button>
                                 </Col>
                             </>

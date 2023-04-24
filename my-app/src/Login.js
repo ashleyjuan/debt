@@ -60,7 +60,7 @@ const Login = () => {
                                             </Col>
                                             <Col>
                                                 <Tooltip title="忘記密碼嗎？點此進入">
-                                                    <a href='/Forget_Password'>忘記密碼</a>
+                                                    <a href='/debt/Forget_Password'>忘記密碼</a>
                                                 </Tooltip>
                                             </Col>
                                         </Row>
@@ -98,7 +98,7 @@ const Login = () => {
                                                             .then(() => {
                                                                 // message.success('123')
                                                                 // form.submit();
-                                                                navigate('/Debt_Information')
+                                                                navigate('/debt/Debt_Information')
                                                             })
                                                             .catch(() => {
                                                                 // message.success('456')
@@ -113,7 +113,7 @@ const Login = () => {
                                                 <Button className='btn' htmlType="submit"
                                                     size='large'
                                                     style={{ backgroundColor: '#B3B9F0' }}
-                                                    onClick={e => navigate('/Register')}
+                                                    onClick={e => navigate('/debt/Register')}
                                                 >
                                                     註冊
                                                 </Button>
@@ -129,7 +129,7 @@ const Login = () => {
                                 </Form>
                             </Col>
                             <Col md={{ span: 10 }} sm={{ span: 24 }}>
-                                <img src="./money.png" width="100%" height="auto"></img>
+                                <img src="../pic/money.png" width="100%" height="auto"></img>
                             </Col>
                         </Row>
                     </Col>
