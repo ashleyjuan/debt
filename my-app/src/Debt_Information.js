@@ -154,7 +154,7 @@ const DebtInformation = () => {
                     <Space>
                         <a style={{ color: 'green' }} onClick={e => editItem(record)}>編輯</a>
                         <Popconfirm
-                            title="確定要刪除好友嗎"
+                            title="確定要刪除嗎"
                             okText="確定"
                             cancelText="取消"
                             onConfirm={e => {
@@ -322,7 +322,7 @@ const DebtInformation = () => {
                     <Space>
                         <a style={{ color: 'green' }} onClick={e => editItem(record)}>編輯</a>
                         <Popconfirm
-                            title="確定要刪除好友嗎"
+                            title="確定要刪除嗎"
                             okText="確定"
                             cancelText="取消"
                             onConfirm={e => {
@@ -399,7 +399,7 @@ const DebtInformation = () => {
                     <Space>
                         <a style={{ color: 'green' }} onClick={e => editItem(record)}>編輯</a>
                         <Popconfirm
-                            title="確定要刪除好友嗎"
+                            title="確定要刪除嗎"
                             okText="確定"
                             cancelText="取消"
                             onConfirm={e => {
